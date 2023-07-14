@@ -46,6 +46,14 @@
     "clean": "rimraf dist/",
     "copy-files": "copyfiles -u 1 src/**/*.css dist/"
   },
+  "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/github",
+      "@semantic-release/npm",
+      "@semantic-release/git"
+  ],
   "eslintConfig": {
     "extends": [
       "react-app",
