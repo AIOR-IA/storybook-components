@@ -11,7 +11,7 @@
   },
   "release": {
     "branches": [
-      "main"
+      "master"
     ]
   },
   "peerDependencies": {
