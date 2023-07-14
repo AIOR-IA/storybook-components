@@ -4,7 +4,7 @@
   "private": false,
   "license": "MIT",
   "typings": "dist/index.d.ts",
-  "main": "dist/index.js",
+  "master": "dist/index.js",
   "repository": {
     "url": "https://github.com/AIOR-IA/storybook-components",
     "type": "git"
